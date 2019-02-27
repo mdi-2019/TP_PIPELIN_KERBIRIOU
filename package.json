@@ -1,0 +1,11 @@
+{
+  "name": "mdi",
+  "version": "0.0.0",
+  "description": "C'est drôle lol",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
