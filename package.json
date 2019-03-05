@@ -2,15 +2,19 @@
   "name": "mdi",
   "version": "0.0.0",
   "description": "C'est drôle lol",
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
-    "start": "node index.html",
+    "start": "index.html",
     "test": "mocha"
   },
-
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "jsdom": "13.2.0",
+    "jsdom-global": "3.0.2",
     "mocha": "^6.0.2"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
   }
 }

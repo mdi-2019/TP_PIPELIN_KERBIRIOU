@@ -6,7 +6,11 @@ function addChar(input, character) {
 }
 
 function cos(form) {
-  form.display.value = Math.cos(form.display.value);
+  form.display.value = cos(form.display.value);
+}
+
+exports.cos = function (number){
+  return Math.cos(number);
 }
 
 function sin(form) {
@@ -18,7 +22,11 @@ function tan(form) {
 }
 
 function sqrt(form) {
-  form.display.value = Math.sqrt(form.display.value);
+  form.display.value = sqrt(form.display.value);
+}
+
+exports.sqrt = function (number){
+  return Math.sqrt(number);
 }
 
 function ln(form) {
