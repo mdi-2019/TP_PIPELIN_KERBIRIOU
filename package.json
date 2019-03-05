@@ -4,9 +4,10 @@
   "description": "C'est drôle lol",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.html",
     "test": "mocha"
   },
+
   "author": "",
   "license": "ISC",
   "devDependencies": {
