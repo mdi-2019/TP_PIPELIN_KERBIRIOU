@@ -4,7 +4,7 @@
   "description": "C'est drôle lol",
   "main": "index.js",
   "scripts": {
-    "start": "node index.html",
+    "start": "index.html",
     "test": "mocha"
   },
 
